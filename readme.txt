@@ -47,11 +47,9 @@ More information and screenshots on http://bonplangratos.fr/wp/plugins/google-qu
 2. Go into the WordPress admin interface and activate the plugin
 3. Go to Google Quick Ratings options panel, choose your options
 
-Ratings display explained on plugin options page for:
-
-*   Automatic activation,
-*   Shortcode,
-*   PHP function.
+= Additional information =
+More information on shorcode, PHP function... on plugin web page:
+http://bonplangratos.fr/wp/plugins/google-quick-ratings
 
 
 == Frequently Asked Questions ==
