@@ -59,10 +59,6 @@ More information and screenshots on http://bonplangratos.fr/wp/plugins/google-qu
 For any support issues, please use the official WordPress support forums.
 
 
-== Translating the Plugin ==
-
-No translation is needed for most sites.
-
 == Screenshots ==
 
 1. Information plugin option
