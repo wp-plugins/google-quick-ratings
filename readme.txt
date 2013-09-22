@@ -26,7 +26,7 @@ Rating function is voluntarily limited to authors (only authors can rate, and no
 
 = Main functionnalilties =
 
-*   Rating from 0 to 5, with a 0.5 step, in the post edit screen, 
+*   Rating from 0 to 5, with a 0.5 step, in admin the post edit screen, 
 *   Use of Google snippets to help Google to display ratings in search results,
 *   Rating tags detected in Google Webmaster Data Highlighter tools,
 *   No use of javascript / ajax to improve loading,
@@ -36,16 +36,22 @@ Rating function is voluntarily limited to authors (only authors can rate, and no
 *   Possibility to display ratings in posts through shortcode,
 *   Possibility to display ratings anywhere with php function.
 
+= Additional information =
+
 More information and screenshots on http://bonplangratos.fr/wp/plugins/google-quick-ratings
 
 
 == Installation ==
 
-1. Put the plug-in folder into [wordpress_dir]/wp-content/plugins/
+1. Put the plug-in folder into /wp-content/plugins/
 2. Go into the WordPress admin interface and activate the plugin
 3. Go to Google Quick Ratings options panel, choose your options
 
-Check plugin option for automatic activation, or to get the shortcode / php function name.
+= Information plugin option =
+
+*   Automatic activation,
+*   Shortcode,
+*   PHP function.
 
 
 == Frequently Asked Questions ==
@@ -59,10 +65,7 @@ No translation is needed for most sites.
 
 == Screenshots ==
 
-1. The post rating meta box which can be enabled for ratings
-2. A post with an author post rating displayed in Google
-3. A post with an author post rating displayed in Wordpress
-4. The plugin settings
+1. Information plugin option
 
 == Changelog ==
 
