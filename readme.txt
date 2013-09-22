@@ -1,4 +1,4 @@
-﻿=== Plugin Name ===
+=== Plugin Name ===
 Contributors: Bon Plan Gratos
 Author: Bon Plan Gratos
 Author URI: http://bonplangratos.fr/
@@ -39,9 +39,7 @@ More information and screenshots on http://bonplangratos.fr/wp/plugins/google-qu
 2. Go into the WordPress admin interface and activate the plugin
 3. Go to Google Quick Ratings options panel, choose your options
 
-Automatic activation: check out plugin options
-Short code: [google-quick-ratings]
-PHP function: <?php if(function_exists('google_quick_ratings')) { google_quick_ratings(); } ?> 
+Check plugin option for automatic activation, or to get the shortcode / php function name.
 
 
 == Frequently Asked Questions ==
