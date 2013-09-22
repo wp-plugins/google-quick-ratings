@@ -20,6 +20,7 @@ This plugin give you the possibility to display ratings on posts / pages and als
 Note: Rating function is voluntarily limited to authors (only authors can rate, and not visitors) through the admin panel, in order to remain as light as possible.
 
 Main functionnalilties
+
 *   Rating from 0 to 5, with a 0.5 step, in the post edit screen, 
 *   Use of Google snippets to help Google to display ratings in search results,
 *   Rating tags detected in Google Webmaster Data Highlighter tools,
