@@ -3,20 +3,21 @@ Contributors: Bon Plan Gratos
 Author: Bon Plan Gratos
 Author URI: http://bonplangratos.fr/
 Donate link: http://bonplangratos.fr/wp/plugins/google-quick-ratings
-Tags: ratings, post, page, google, stars, snippetsVersion: 1.0
-Stable tag: 1.0
+Tags: ratings, stars, post, page, google, snippets
+Stable tag: trunk
 Requires at least: 3.1
 Tested up to: 3.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The lightest and fastest plugin to rate posts and pages by their authors, comptatible with Google rating snippets
+The lightest and fastest plugin to rate posts and pages by their authors, comptatible with Google rating snippets.
 
 
 == Description ==
 
 
 This plugin give you the possibility to display ratings on posts / pages and also on Google search results. It is extremely light, very fast, comptabible with all versions of Wordpress and will not break any of your plugins. It is inspired of similar existing plugins, with high optimization.
+
 Note: Rating function is voluntarily limited to authors (only authors can rate, and not visitors) through the admin panel, in order to remain as light as possible.
 
 Main functionnalilties
