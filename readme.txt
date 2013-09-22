@@ -30,6 +30,8 @@ Main functionnalilty:
 - Possibility to display ratings in posts through shortcode
 - Possibility to display ratings anywhere with php function
 
+More information on http://bonplangratos.fr/wp/plugins/google-quick-ratings
+
 
 == Installation ==
 
