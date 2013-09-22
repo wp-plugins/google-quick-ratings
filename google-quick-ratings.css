@@ -1,0 +1,22 @@
+div.google-quick-ratings {
+	display: block;
+	margin: 1em 0;
+}
+
+span.google-quick-ratings-label {
+	display: inline;
+}
+
+span.google-quick-ratings-stars {
+	display: inline;
+}
+
+span.google-quick-ratings-stars img {
+	border: 0;
+	display: inline;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	max-width: none;
+	width: auto;
+}
