@@ -20,15 +20,15 @@ This plugin give you the possibility to display ratings on posts / pages and als
 Note: Rating function is voluntarily limited to authors (only authors can rate, and not visitors) through the admin panel, in order to remain as light as possible.
 
 Main functionnalilties
-* Rating from 0 to 5, with a 0.5 step, in the post edit screen,\n
-* Use of Google snippets to help Google to display ratings in search results,
-* Rating tags detected in Google Webmaster Data Highlighter tools,
-* No use of javascript / ajax to improve loading,
-* Different format of ratings available (star, heart, gradient),
-* Use of sprites to improve loading of PNG images,
-* Automatic display of ratings in posts, pages or both,
-* Possibility to display ratings in posts through shortcode,
-* Possibility to display ratings anywhere with php function.
+*   Rating from 0 to 5, with a 0.5 step, in the post edit screen, 
+*   Use of Google snippets to help Google to display ratings in search results,
+*   Rating tags detected in Google Webmaster Data Highlighter tools,
+*   No use of javascript / ajax to improve loading,
+*   Different format of ratings available (star, heart, gradient),
+*   Use of sprites to improve loading of PNG images,
+*   Automatic display of ratings in posts, pages or both,
+*   Possibility to display ratings in posts through shortcode,
+*   Possibility to display ratings anywhere with php function.
 
 More information and screenshots on http://bonplangratos.fr/wp/plugins/google-quick-ratings
 
