@@ -36,9 +36,9 @@ Rating function is voluntarily limited to authors (only authors can rate, and no
 *   Possibility to display ratings in posts through 'shortcode',
 *   Possibility to display ratings anywhere with 'php function'.
 
-= Additional information =
-
-More information and screenshots on http://bonplangratos.fr/wp/plugins/google-quick-ratings
+= Additional information / help =
+More information on shorcode, PHP function, etc... on plugin web page:
+http://bonplangratos.fr/wp/plugins/google-quick-ratings
 
 
 == Installation ==
