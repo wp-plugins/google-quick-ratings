@@ -18,11 +18,11 @@ The lightest and fastest plugin to rate posts and pages by their authors, compta
 
 This plugin give you the possibility to display ratings on posts / pages and also on Google search results.
 
-It is extremely light, very fast, comptabible with all versions of Wordpress and will not break any of your plugins. It is inspired of similar existing plugins, with high optimization.
+It is extremely light, very fast to load, comptabible with all versions of Wordpress and will not break any of your plugins. It is inspired of similar existing plugins, but remains very simple. Page speed is a Google ranking factor, as well as data provided in snippets (such ratings).
 
 = Important =
 
-Rating function is voluntarily limited to authors (only authors can rate, and not visitors) through the admin panel, in order to remain as light as possible.
+Rating function is voluntarily limited to authors (only authors can rate, and not visitors) through the admin panel, in order to remain as light and fast as possible.
 
 = Main functionnalilties =
 
