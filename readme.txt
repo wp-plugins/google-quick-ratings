@@ -1,4 +1,4 @@
-=== Plugin Name ===
+﻿=== Plugin Name ===
 Contributors: Bon Plan Gratos
 Author: Bon Plan Gratos
 Author URI: http://bonplangratos.fr/
