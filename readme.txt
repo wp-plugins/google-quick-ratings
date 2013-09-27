@@ -63,8 +63,13 @@ For any support issues, please use the official WordPress support forums.
 
 == Changelog ==
 
-= 1.0 =
-* Initial Release
+= 1.2 =
+* Corrected missing sprites in the img folder
+* Call to css file deleted (use main wp css file)
+* Add a new sprite (golden stars)
 
 = 1.1 =
 * Screenshot updated
+
+= 1.0 =
+* Initial Release

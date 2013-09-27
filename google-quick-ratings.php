@@ -3,7 +3,7 @@
 Plugin Name: Google Quick Ratings
 Plugin URI: http://philipnewcomer.net/wordpress-plugins/google-quick-ratings/
 Description: Allows a post author to add a simple 5-star rating to posts.
-Version: 1.1
+Version: 1.2
 Author: Philip Newcomer
 Author URI: http://philipnewcomer.net
 License: GPL2
@@ -37,7 +37,7 @@ function pn_apr_get_defaults()
 	$defaults = array(
 		'label_text' => __( 'Rating:', 'google-quick-ratings' ),
 		'position_on_post' => 'top', // Options: top, bottom, or shortcode
-		'sprite_on_post' => 'star', // Options: star, star2, gradient, or heart
+		'sprite_on_post' => 'star', // Options: star, star2, euro, gradient, or heart
 		'post_types_enabled' => array( 'post' ),
 		'show_in_google_results' => true, // Activate star rating in Google search results
 		'show_only_on_singular' => false
@@ -73,15 +73,6 @@ function pn_apr_settings_init()
 	}
 }
 add_action( 'after_setup_theme', 'pn_apr_settings_init' );
-
-
-
-function pn_apr_enqueue_css()
-{
-	wp_enqueue_style( 'google-quick-ratings', PN_APR_PLUGIN_DIR_URL . 'google-quick-ratings.css' );
-}
-add_action( 'wp_enqueue_scripts', 'pn_apr_enqueue_css' );
-
 
 
 function get_author_post_rating( $post_id = null )
@@ -317,6 +308,7 @@ function pn_apr_settings_validation( $input )
 		$sprite_on_post_valid_options = array(
 			'star',
 			'star2',
+			'euro',
 			'gradient',
 			'heart'
 		);
@@ -401,6 +393,8 @@ function pn_apr_settings_sprite_on_post()
 	<label for="pn_apr_settings_sprite_on_post_star"><span style="display: inline-block; width: 65px; height: 13px; background: url(<?php echo PN_APR_PLUGIN_DIR_URL?>images/star-rating-sprite.png) 0 0;"><span class="rating-foreground" title="Note: 4/ 5" style="display: block; width: 80%; height: 13px; background: url(<?php echo PN_APR_PLUGIN_DIR_URL?>images/star-rating-sprite.png) 0 -13px;"></span></span></label><br />		
 <input type="radio" name="pn_apr_settings[sprite_on_post]" id="pn_apr_settings_sprite_on_post_star2"<?php checked( 'star2', $pn_apr_settings['sprite_on_post'] ); ?> value="star2" />
 	<label for="pn_apr_settings_sprite_on_post_star2"><span style="display: inline-block; width: 65px; height: 13px; background: url(<?php echo PN_APR_PLUGIN_DIR_URL?>images/star2-rating-sprite.png) 0 0;"><span class="rating-foreground" title="Note: 4/ 5" style="display: block; width: 80%; height: 13px; background: url(<?php echo PN_APR_PLUGIN_DIR_URL?>images/star2-rating-sprite.png) 0 -13px;"></span></span></label><br />
+<input type="radio" name="pn_apr_settings[sprite_on_post]" id="pn_apr_settings_sprite_on_post_euro"<?php checked( 'euro', $pn_apr_settings['sprite_on_post'] ); ?> value="euro" />
+	<label for="pn_apr_settings_sprite_on_post_euro"><span style="display: inline-block; width: 65px; height: 13px; background: url(<?php echo PN_APR_PLUGIN_DIR_URL?>images/euro-rating-sprite.png) 0 0;"><span class="rating-foreground" title="Note: 4/ 5" style="display: block; width: 80%; height: 13px; background: url(<?php echo PN_APR_PLUGIN_DIR_URL?>images/euro-rating-sprite.png) 0 -13px;"></span></span></label><br />
 <input type="radio" name="pn_apr_settings[sprite_on_post]" id="pn_apr_settings_sprite_on_post_gradient"<?php checked( 'gradient', $pn_apr_settings['sprite_on_post'] ); ?> value="gradient" />
 	<label for="pn_apr_settings_sprite_on_post_gradient"><span style="display: inline-block; width: 65px; height: 13px; background: url(<?php echo PN_APR_PLUGIN_DIR_URL?>images/gradient-rating-sprite.png) 0 0;"><span class="rating-foreground" title="Note: 4/ 5" style="display: block; width: 80%; height: 13px; background: url(<?php echo PN_APR_PLUGIN_DIR_URL?>images/gradient-rating-sprite.png) 0 -13px;"></span></span></label><br />
 <input type="radio" name="pn_apr_settings[sprite_on_post]" id="pn_apr_settings_sprite_on_post_heart"<?php checked( 'heart', $pn_apr_settings['sprite_on_post'] ); ?> value="heart" />
