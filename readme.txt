@@ -65,7 +65,7 @@ For any support issues, please use the official WordPress support forums.
 
 = 1.2 =
 * Corrected missing sprites in the img folder
-* Call to css file deleted (use main wp css file)
+* Call to css file deleted (please use main wp css file to improve perf)
 * Add a new sprite (golden stars)
 
 = 1.1 =
